@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DAF</string>
+    <string name="ok">OK</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="ms">ms</string>
+    <string name="delay">Delay</string>
+    <string name="gain">Sound gain</string>
+    <string name="share">Share</string>
+    <string name="record">Record</string>
+    <string name="accept">Confirm</string>
+    <string name="speech_processing_is_active">DAF speech processing is active</string>
+
+    <!-- region audio device info -->
+    <string name="audio_device_type_builtin_mic">Built-in microphone</string>
+    <string name="audio_device_type_bluetooth_ll">Bluetooth device (low latency)</string>
+    <string name="audio_device_type_bluetooth_hq">Bluetooth device (high quality)</string>
+    <string name="audio_device_type_wiered_headset">Wired headset</string>
+    <string name="audio_device_type_wiered_headphones">Wired headphones</string>
+    <string name="audio_device_type_telephony">Built-in microphone (top)</string>
+    <string name="audio_device_type">Built-in microphone</string>
+    <!-- endregion -->
+
+    <!-- region ad -->
+    <string name="created_with">Created with support from</string>
+    <string name="speach_therapist">Adult speech therapist online</string>
+    <!-- endregion -->
+
+    <!-- region headphones help -->
+    <string name="connect_headphones">Connect headphones</string>
+    <string name="connect_headphones_long">Headphones are required to use this application</string>
+    <!-- endregion -->
+
+    <!-- region initial help -->
+    <string name="initial_help_title">Getting started</string>
+    <string name="initial_help_description">
+        For the best sound quality and lowest delay, we recommend using wired headphones.
+        \n\nYou can also try changing the microphone and speaker in the app settings to find the option that sounds best for you.
+    </string>
+    <!-- endregion -->
+
+    <!-- region minimal delay help -->
+    <string name="min_delay">Minimal delay</string>
+    <string name="min_delay_long">Due to system limitations, zero delay is not achievable and may vary depending on the device.\n\nFor the lowest delay, use wired headphones</string>
+    <!-- endregion -->
+
+    <!-- region settings -->
+    <string name="settings">Settings</string>
+    <string name="noise_cancellation">Noise cancellation</string>
+    <string name="mic">Microphone</string>
+    <string name="output">Speaker</string>
+    <string name="auto_select">Automatic selection</string>
+    <!-- endregion -->
+
+    <!-- region permissions -->
+    <string name="permissions">Permissions</string>
+    <string name="permissions_description">The app requires permissions to function properly</string>
+    <string name="mic_using">Microphone usage</string>
+    <string name="notification_show">Notification display</string>
+    <string name="battery_optimization">Battery optimization</string>
+    <string name="give_mic_permission">Grant microphone access</string>
+    <string name="give_mic_permission_description">To work correctly, microphone access must be granted in the app settings</string>
+    <string name="go_to_settings">Go to settings</string>
+    <string name="allow_notifications">Allow notifications</string>
+    <string name="allow_notifications_description">To work correctly, permission to show notifications is required in the app settings</string>
+    <string name="cancel_battery_optimization">Disable battery optimization</string>
+    <string name="cancel_battery_optimization_description">On some devices, the system may close the app in the background, causing unexpected recording interruptions. You can fix this by disabling battery optimization.\n\nSettings — Apps — FAF → Advanced — Battery optimization — Don’t optimize</string>
+    <!-- endregion -->
+
+    <!-- region help and support -->
+    <string name="help_and_support">Help and support</string>
+    <string name="delay_description">
+        For the best sound quality and lowest delay, we recommend using wired headphones.
+        \n\nYou can also try changing the microphone and speaker in the app settings to find the option that sounds best for you.
+    </string>
+    <string name="no_sound">No sound or low sound quality</string>
+    <string name="no_sound_description">Try selecting a different speaker or microphone in the app settings</string>
+    <string name="support">Support</string>
+    <string name="consultation">Get a speech therapy consultation</string>
+    <!-- endregion -->
+</resources>

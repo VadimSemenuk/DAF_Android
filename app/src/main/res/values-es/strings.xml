@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DAF</string>
+    <string name="ok">OK</string>
+    <string name="close">Cerrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ms">ms</string>
+    <string name="delay">Retraso</string>
+    <string name="gain">Ganancia de sonido</string>
+    <string name="share">Compartir</string>
+    <string name="record">Grabación</string>
+    <string name="accept">Confirmar</string>
+    <string name="speech_processing_is_active">El procesamiento del habla de DAF está activo</string>
+
+    <!-- audio device info -->
+    <string name="audio_device_type_builtin_mic">Micrófono integrado</string>
+    <string name="audio_device_type_bluetooth_ll">Dispositivo Bluetooth (baja latencia)</string>
+    <string name="audio_device_type_bluetooth_hq">Dispositivo Bluetooth (alta calidad)</string>
+    <string name="audio_device_type_wiered_headset">Auriculares con cable</string>
+    <string name="audio_device_type_wiered_headphones">Cascos con cable</string>
+    <string name="audio_device_type_telephony">Micrófono integrado (superior)</string>
+    <string name="audio_device_type">Micrófono integrado</string>
+
+    <!-- ads -->
+    <string name="created_with">Creado con el apoyo de</string>
+    <string name="speach_therapist">Logopeda para adultos en línea</string>
+
+    <!-- headphones help -->
+    <string name="connect_headphones">Conecte los auriculares</string>
+    <string name="connect_headphones_long">Para usar la aplicación es necesario conectar auriculares</string>
+
+    <!-- region initial help -->
+    <string name="initial_help_title">Primeros pasos</string>
+    <string name="initial_help_description">
+        Para obtener la mejor calidad de sonido y la menor latencia, recomendamos usar auriculares con cable.
+        \n\nTambién puedes intentar cambiar el micrófono y el altavoz en la configuración de la aplicación para encontrar la opción que mejor se adapte a ti.
+    </string>
+    <!-- endregion -->
+
+    <!-- region minimal delay help -->
+    <string name="min_delay">Retraso mínimo</string>
+    <string name="min_delay_long">Debido a las limitaciones del sistema, el retraso cero no es posible y puede variar según el dispositivo.\n\nPara el retraso más bajo use auriculares con cable</string>
+    <!-- endregion-->
+
+    <!-- settings -->
+    <string name="settings">Ajustes</string>
+    <string name="noise_cancellation">Cancelación de ruido</string>
+    <string name="mic">Micrófono</string>
+    <string name="output">Altavoz</string>
+    <string name="auto_select">Selección automática</string>
+
+    <!-- permissions -->
+    <string name="permissions">Permisos</string>
+    <string name="permissions_description">Se requieren permisos para que la aplicación funcione correctamente</string>
+    <string name="mic_using">Uso del micrófono</string>
+    <string name="notification_show">Mostrar notificaciones</string>
+    <string name="battery_optimization">Optimización de batería</string>
+    <string name="give_mic_permission">Permitir acceso al micrófono</string>
+    <string name="give_mic_permission_description">Debe habilitar el acceso al micrófono en los ajustes de la aplicación</string>
+    <string name="go_to_settings">Ir a ajustes</string>
+    <string name="allow_notifications">Permitir notificaciones</string>
+    <string name="allow_notifications_description">Se debe permitir mostrar notificaciones en los ajustes de la aplicación</string>
+    <string name="cancel_battery_optimization">Desactivar optimización de batería</string>
+    <string name="cancel_battery_optimization_description">En algunos dispositivos, el sistema puede cerrar la aplicación en segundo plano, causando interrupciones inesperadas en la grabación. Puede solucionarlo desactivando la optimización de batería.\n\nAjustes — Aplicaciones — DAF → Avanzado — Optimización de batería — No optimizar</string>
+
+    <!-- help and support -->
+    <string name="help_and_support">Ayuda y soporte</string>
+    <string name="delay_description">
+        Para obtener la mejor calidad de sonido y la menor latencia, recomendamos usar auriculares con cable.
+        \n\nTambién puedes intentar cambiar el micrófono y el altavoz en la configuración de la aplicación para encontrar la opción que mejor se adapte a ti.
+    </string>
+    <string name="no_sound">Sin sonido o sonido de baja calidad</string>
+    <string name="no_sound_description">Intente seleccionar otro altavoz o micrófono en los ajustes</string>
+    <string name="support">Soporte</string>
+    <string name="consultation">Obtener consulta logopédica</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DAF</string>
+    <string name="ok">ОК</string>
+    <string name="close">Закрити</string>
+    <string name="cancel">Скасувати</string>
+    <string name="ms">мс</string>
+    <string name="delay">Затримка</string>
+    <string name="gain">Підсилення звуку</string>
+    <string name="share">Поділитися</string>
+    <string name="record">Запис</string>
+    <string name="accept">Підтвердити</string>
+    <string name="speech_processing_is_active">DAF Обробка мовлення активна</string>
+
+    <!-- region audio device info -->
+    <string name="audio_device_type_builtin_mic">Вбудований мікрофон</string>
+    <string name="audio_device_type_bluetooth_ll">Bluetooth-пристрій (низька затримка)</string>
+    <string name="audio_device_type_bluetooth_hq">Bluetooth-пристрій (висока якість)</string>
+    <string name="audio_device_type_wiered_headset">Провідна гарнітура</string>
+    <string name="audio_device_type_wiered_headphones">Провідні навушники</string>
+    <string name="audio_device_type_telephony">Вбудований мікрофон (верхній)</string>
+    <string name="audio_device_type">Вбудований мікрофон</string>
+    <!-- endregion -->
+
+    <!-- region ad -->
+    <string name="created_with">Створено за підтримки</string>
+    <string name="speach_therapist">Логопед для дорослих онлайн</string>
+    <!-- endregion -->
+
+    <!-- region headphones help -->
+    <string name="connect_headphones">Підключіть навушники</string>
+    <string name="connect_headphones_long">Для роботи застосунку необхідно підключити навушники</string>
+    <!-- endregion -->
+
+    <!-- region initial help -->
+    <string name="initial_help_title">Початок роботи</string>
+    <string name="initial_help_description">
+        Для найкращої якості звуку та мінімальної затримки рекомендуємо використовувати дротові навушники.
+        \n\nВи також можете спробувати змінити мікрофон і динамік у налаштуваннях застосунку, щоб знайти найкращий варіант для себе.
+    </string>
+    <!-- endregion -->
+
+    <!-- region minimal delay help -->
+    <string name="min_delay">Мінімальна затримка</string>
+    <string name="min_delay_long">Через особливості системи нульова затримка недосяжна і може відрізнятися залежно від пристрою.\n\nДля мінімальної затримки використовуйте провідні навушники</string>
+    <!-- endregion-->
+
+    <!-- region settings -->
+    <string name="settings">Налаштування</string>
+    <string name="noise_cancellation">Шумоприглушення</string>
+    <string name="mic">Мікрофон</string>
+    <string name="output">Динамік</string>
+    <string name="auto_select">Автоматичний вибір</string>
+    <!-- endregion -->
+
+    <!-- region permissions -->
+    <string name="permissions">Дозволи</string>
+    <string name="permissions_description">Для коректної роботи потрібно надати дозволи</string>
+    <string name="mic_using">Використання мікрофона</string>
+    <string name="notification_show">Показ сповіщень</string>
+    <string name="battery_optimization">Оптимізація батареї</string>
+    <string name="give_mic_permission">Надайте доступ до мікрофона</string>
+    <string name="give_mic_permission_description">Щоб застосунок працював коректно, у налаштуваннях потрібно дозволити доступ до мікрофона</string>
+    <string name="go_to_settings">Перейти до налаштувань</string>
+    <string name="allow_notifications">Дозвольте показ сповіщень</string>
+    <string name="allow_notifications_description">Для коректної роботи потрібно дозволити показ сповіщень у налаштуваннях застосунку</string>
+    <string name="cancel_battery_optimization">Вимкніть оптимізацію батареї</string>
+    <string name="cancel_battery_optimization_description">На деяких пристроях система може закривати застосунок у фоновому режимі, що призводить до переривання запису. Це можна виправити, вимкнувши оптимізацію батареї.\n\nНалаштування — Застосунки — DAF → Додатково — Оптимізація батареї — Не оптимізувати</string>
+    <!-- endregion -->
+
+    <!-- region help and support -->
+    <string name="help_and_support">Допомога та підтримка</string>
+    <string name="delay_description">
+        Для найкращої якості звуку та мінімальної затримки рекомендуємо використовувати дротові навушники.
+        \n\nВи також можете спробувати змінити мікрофон і динамік у налаштуваннях застосунку, щоб знайти найкращий варіант для себе.
+    </string>
+    <string name="no_sound">Немає звуку або низька якість звуку</string>
+    <string name="no_sound_description">Спробуйте вибрати інший динамік або мікрофон у налаштуваннях застосунку</string>
+    <string name="support">Підтримка</string>
+    <string name="consultation">Отримати логопедичну консультацію</string>
+    <!-- endregion -->
+</resources>

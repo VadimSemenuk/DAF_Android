@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DAF</string>
+    <string name="ok">OK</string>
+    <string name="close">Schließen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ms">ms</string>
+    <string name="delay">Verzögerung</string>
+    <string name="pitch">Tonhöhe</string>
+    <string name="gain">Lautstärkeverstärkung</string>
+    <string name="share">Teilen</string>
+    <string name="record">Aufnahme</string>
+    <string name="accept">Bestätigen</string>
+    <string name="speech_processing_is_active">Die DAF-Sprachverarbeitung ist aktiv</string>
+
+    <!-- audio device info -->
+    <string name="audio_device_type_builtin_mic">Eingebautes Mikrofon</string>
+    <string name="audio_device_type_bluetooth_ll">Bluetooth-Gerät (geringe Latenz)</string>
+    <string name="audio_device_type_bluetooth_hq">Bluetooth-Gerät (hohe Qualität)</string>
+    <string name="audio_device_type_wiered_headset">Kabelgebundenes Headset</string>
+    <string name="audio_device_type_wiered_headphones">Kabelgebundene Kopfhörer</string>
+    <string name="audio_device_type_telephony">Eingebautes Mikrofon (oben)</string>
+    <string name="audio_device_type">Eingebautes Mikrofon</string>
+
+    <!-- ads -->
+    <string name="created_with">Erstellt mit Unterstützung von</string>
+    <string name="speach_therapist">Online-Logopäde für Erwachsene</string>
+
+    <!-- headphones help -->
+    <string name="connect_headphones">Kopfhörer anschließen</string>
+    <string name="connect_headphones_long">Zum Verwenden der App müssen Kopfhörer angeschlossen sein</string>
+
+    <!-- region initial help -->
+    <string name="initial_help_title">Erste Schritte</string>
+    <string name="initial_help_description">
+        Für die beste Klangqualität und die geringste Verzögerung empfehlen wir die Verwendung von kabelgebundenen Kopfhörern.
+        \n\nSie können auch versuchen, das Mikrofon und den Lautsprecher in den App-Einstellungen zu ändern, um die für Sie beste Option zu finden.
+    </string>
+    <!-- endregion -->
+
+    <!-- region minimal delay help -->
+    <string name="min_delay">Minimale Verzögerung</string>
+    <string name="min_delay_long">Aufgrund systembedingter Eigenschaften ist eine Null-Latenz nicht erreichbar und kann je nach Gerät variieren.\n\nFür die geringste Verzögerung benutzen Sie kabelgebundene Kopfhörer</string>
+    <!-- endregion-->
+
+    <!-- settings -->
+    <string name="settings">Einstellungen</string>
+    <string name="noise_cancellation">Geräuschunterdrückung</string>
+    <string name="mic">Mikrofon</string>
+    <string name="output">Lautsprecher</string>
+    <string name="auto_select">Automatische Auswahl</string>
+
+    <!-- permissions -->
+    <string name="permissions">Berechtigungen</string>
+    <string name="permissions_description">Für die korrekte Funktion sind Berechtigungen erforderlich</string>
+    <string name="mic_using">Mikrofonnutzung</string>
+    <string name="notification_show">Benachrichtigungsanzeige</string>
+    <string name="battery_optimization">Akkuoptimierung</string>
+    <string name="give_mic_permission">Mikrofonzugriff erlauben</string>
+    <string name="give_mic_permission_description">Um korrekt zu funktionieren, muss der Mikrofonzugriff in den App-Einstellungen erlaubt werden</string>
+    <string name="go_to_settings">Zu den Einstellungen</string>
+    <string name="allow_notifications">Benachrichtigungen erlauben</string>
+    <string name="allow_notifications_description">Damit die App korrekt funktioniert, müssen Benachrichtigungen in den Einstellungen erlaubt werden</string>
+    <string name="cancel_battery_optimization">Akkuoptimierung deaktivieren</string>
+    <string name="cancel_battery_optimization_description">Auf einigen Geräten kann das System die App im Hintergrund schließen, was zu unerwarteten Aufnahmeabbrüchen führt. Sie können dies beheben, indem Sie die Akkuoptimierung deaktivieren.\n\nEinstellungen – Apps – DAF → Erweiterte Einstellungen – Akkuoptimierung – Nicht optimieren</string>
+
+    <!-- help and support -->
+    <string name="help_and_support">Hilfe und Support</string>
+    <string name="delay_description">
+        Für die beste Klangqualität und die geringste Verzögerung empfehlen wir die Verwendung von kabelgebundenen Kopfhörern.
+        \n\nSie können auch versuchen, das Mikrofon und den Lautsprecher in den App-Einstellungen zu ändern, um die für Sie beste Option zu finden.
+    </string>
+    <string name="no_sound">Kein Ton oder schlechte Tonqualität</string>
+    <string name="no_sound_description">Versuchen Sie, in den App-Einstellungen einen anderen Lautsprecher oder ein anderes Mikrofon zu wählen</string>
+    <string name="support">Support</string>
+    <string name="consultation">Logopädische Beratung erhalten</string>
+</resources>

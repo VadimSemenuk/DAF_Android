@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DAF</string>
+    <string name="ok">Ок</string>
+    <string name="close">Закрыть</string>
+    <string name="cancel">Отмена</string>
+    <string name="ms">мс</string>
+    <string name="delay">Задержка</string>
+    <string name="gain">Усиление звука</string>
+    <string name="share">Поделиться</string>
+    <string name="record">Запись</string>
+    <string name="accept">Подтвердить</string>
+    <string name="speech_processing_is_active">DAF обработка голоса активна</string>
+
+<!--    region audio device info-->
+    <string name="audio_device_type_builtin_mic">Встроенный микрофон</string>
+    <string name="audio_device_type_bluetooth_ll">Bluetooth устройство (низкая задержка)</string>
+    <string name="audio_device_type_bluetooth_hq">Bluetooth устройство (высокое качество)</string>
+    <string name="audio_device_type_wiered_headset">Проводная гарнитура</string>
+    <string name="audio_device_type_wiered_headphones">Проводные наушники</string>
+    <string name="audio_device_type_telephony">Встроенный микрофон (верхний)</string>
+    <string name="audio_device_type">Встроенный микрофон</string>
+<!--    endregion-->
+
+<!--    region ad-->
+    <string name="created_with">Создано при поддержке</string>
+    <string name="speach_therapist">Логопед для взрослых онлайн</string>
+<!--    endregion-->
+
+<!--    region headphones help-->
+    <string name="connect_headphones">Подключите наушники</string>
+    <string name="connect_headphones_long">Для работы с приложением требуется подключение наушников</string>
+<!--    endregion-->
+
+    <!-- region initial help -->
+    <string name="initial_help_title">Начало работы</string>
+    <string name="initial_help_description">
+        Для обеспечения наилучшего качества звука и минимальной задержки мы рекомендуем использовать проводные наушники.
+        \n\nВы также можете попробовать изменить настройки микрофона и динамика в настройках приложения, чтобы найти вариант, который звучит для вас лучше всего.
+    </string>
+    <!-- endregion -->
+
+    <!-- region minimal delay help -->
+    <string name="min_delay">Минимальная задержка</string>
+    <string name="min_delay_long">Из-за особенностей системы нулевая задержка не достижима и может варьироваться в зависимости от устройств.\n\nДля достижения минимальной задежки используйте проводные наушники</string>
+    <!-- endregion-->
+
+<!--    region settings-->
+    <string name="settings">Настройки</string>
+    <string name="noise_cancellation">Шумоподавление</string>
+    <string name="mic">Микрофон</string>
+    <string name="output">Динамик</string>
+    <string name="auto_select">Автоматический выбор</string>
+<!--    endregion-->
+
+<!--    region permissions-->
+    <string name="permissions">Разрешения</string>
+    <string name="permissions_description">Для корректной работы требуется предоставить разрешения</string>
+    <string name="mic_using">Использование микрофона</string>
+    <string name="notification_show">Показ уведомлений</string>
+    <string name="battery_optimization">Оптимизация батареи</string>
+    <string name="give_mic_permission">Предоставьте доступ к микрофону</string>
+    <string name="give_mic_permission_description">Для корректной работы требуется предоставить доступ к микрофону в настройках приложения</string>
+    <string name="go_to_settings">Перейти в настройки</string>
+    <string name="allow_notifications">Разрешите показ уведомлений</string>
+    <string name="allow_notifications_description">Для корректной работы требуется предоставить доступ к показу уведомлений в настройках приложения</string>
+    <string name="cancel_battery_optimization">Отключите оптимизацию батареи</string>
+    <string name="cancel_battery_optimization_description">На некоторых устройствах система может закрыть приложение в фоновом режиме. Это может привести к неожиданному прерыванию записи. Эту проблему можно решить, отключив оптимизацию заряда батареи.\n\nНастройки - Приложения - DAF -> Дополнительные - Оптимизация заряда батареи - Не оптимизировать</string>
+<!--    endregion-->
+
+<!--    region help and support-->
+    <string name="help_and_support">Помошь и поддержка</string>
+    <string name="delay_description">
+        Для обеспечения наилучшего качества звука и минимальной задержки мы рекомендуем использовать проводные наушники.
+        \n\nВы также можете попробовать изменить настройки микрофона и динамика в настройках приложения, чтобы найти вариант, который звучит для вас лучше всего.
+    </string>
+    <string name="no_sound">Нет звука или низкое качество звука</string>
+    <string name="no_sound_description">Попробуйте выбрать другой динамик или микрофон в настройках приложения</string>
+    <string name="support">Поддержка</string>
+    <string name="consultation">Получить логопедическую консультацию</string>
+<!--    endregion-->
+</resources>

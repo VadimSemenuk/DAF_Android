@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DAF</string>
+    <string name="ok">ОК</string>
+    <string name="close">Закрыць</string>
+    <string name="cancel">Адмена</string>
+    <string name="ms">мс</string>
+    <string name="delay">Затрымка</string>
+    <string name="gain">Узмацненне гуку</string>
+    <string name="share">Падзяліцца</string>
+    <string name="record">Запіс</string>
+    <string name="accept">Пацвердзіць</string>
+    <string name="speech_processing_is_active">DAF Апрацоўка маўлення актыўная</string>
+
+    <!-- region audio device info -->
+    <string name="audio_device_type_builtin_mic">Убудаваны мікрафон</string>
+    <string name="audio_device_type_bluetooth_ll">Bluetooth-прылада (нізкая затрымка)</string>
+    <string name="audio_device_type_bluetooth_hq">Bluetooth-прылада (высокая якасць)</string>
+    <string name="audio_device_type_wiered_headset">Правадная гарнітура</string>
+    <string name="audio_device_type_wiered_headphones">Правадныя навушнікі</string>
+    <string name="audio_device_type_telephony">Убудаваны мікрафон (верхні)</string>
+    <string name="audio_device_type">Убудаваны мікрафон</string>
+    <!-- endregion -->
+
+    <!-- region ad -->
+    <string name="created_with">Створана пры падтрымцы</string>
+    <string name="speach_therapist">Лагапед для дарослых онлайн</string>
+    <!-- endregion -->
+
+    <!-- region headphones help -->
+    <string name="connect_headphones">Падключыце навушнікі</string>
+    <string name="connect_headphones_long">Для працы дадатку неабходна падключыць навушнікі</string>
+    <!-- endregion -->
+
+    <!-- region initial help -->
+    <string name="initial_help_title">Пачатак працы</string>
+    <string name="initial_help_description">
+        Для найлепшай якасці гуку і мінімальнай затрымкі рэкамендуем выкарыстоўваць правадныя навушнікі.
+        \n\nВы таксама можаце паспрабаваць змяніць мікрафон і дынамік у наладах прыкладання, каб знайсці найлепшы для сябе варыянт.
+    </string>
+    <!-- endregion -->
+
+    <!-- region minimal delay help -->
+    <string name="min_delay">Мінімальная затрымка</string>
+    <string name="min_delay_long">З-за асаблівасцей сістэмы нулявая затрымка недасягальная і можа адрознівацца ў залежнасці ад прылады.\n\nДля мінімальнай затрымкі выкарыстоўвайце правадныя навушнікі</string>
+    <!-- endregion -->
+
+    <!-- region settings -->
+    <string name="settings">Налады</string>
+    <string name="noise_cancellation">Падаўленне шуму</string>
+    <string name="mic">Мікрафон</string>
+    <string name="output">Дынамік</string>
+    <string name="auto_select">Аўтаматычны выбар</string>
+    <!-- endregion -->
+
+    <!-- region permissions -->
+    <string name="permissions">Дазволы</string>
+    <string name="permissions_description">Для карэктнай працы неабходна прадаставіць дазволы</string>
+    <string name="mic_using">Выкарыстанне мікрафона</string>
+    <string name="notification_show">Паказ апавяшчэнняў</string>
+    <string name="battery_optimization">Аptыміzaцыя батарэі</string>
+    <string name="give_mic_permission">Прадастаўце доступ да мікрафона</string>
+    <string name="give_mic_permission_description">Для карэктнай працы неабходна прадастаўць доступ да мікрафона ў наладах дадатку</string>
+    <string name="go_to_settings">Перайсці ў налады</string>
+    <string name="allow_notifications">Дазвольце паказ апавяшчэнняў</string>
+    <string name="allow_notifications_description">Для карэктнай працы неабходна дазволіць паказ апавяшчэнняў у наладах дадатку</string>
+    <string name="cancel_battery_optimization">Адключыце аптымізацыю батарэі</string>
+    <string name="cancel_battery_optimization_description">На некаторых прыладах сістэма можа закрыць дадатак у фонавым рэжыме, што прывядзе да перапынення запісу. Вы можаце вырашыць гэта, адключыўшы аптымізацыю батарэі.\n\nНалады — Праграмы — DAF → Дадаткова — Аптымізацыя батарэі — Не аптымізаваць</string>
+    <!-- endregion -->
+
+    <!-- region help and support -->
+    <string name="help_and_support">Дапамога і падтрымка</string>
+    <string name="delay_description">
+        Для найлепшай якасці гуку і мінімальнай затрымкі рэкамендуем выкарыстоўваць правадныя навушнікі.
+        \n\nВы таксама можаце паспрабаваць змяніць мікрафон і дынамік у наладах прыкладання, каб знайсці найлепшы для сябе варыянт.
+    </string>
+    <string name="no_sound">Няма гуку або дрэнная якасць гуку</string>
+    <string name="no_sound_description">Паспрабуйце выбраць іншы дынамік або мікрафон у наладах дадатку</string>
+    <string name="support">Падтрымка</string>
+    <string name="consultation">Атрымаць лагапедычную кансультацыю</string>
+    <!-- endregion -->
+</resources>

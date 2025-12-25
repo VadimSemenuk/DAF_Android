@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DAF</string>
+    <string name="ok">OK</string>
+    <string name="close">Fechar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ms">ms</string>
+    <string name="delay">Atraso</string>
+    <string name="gain">Ganho de som</string>
+    <string name="share">Compartilhar</string>
+    <string name="record">Gravação</string>
+    <string name="accept">Confirmar</string>
+    <string name="speech_processing_is_active">O processamento de fala DAF está ativo</string>
+
+    <!-- audio device info -->
+    <string name="audio_device_type_builtin_mic">Microfone embutido</string>
+    <string name="audio_device_type_bluetooth_ll">Dispositivo Bluetooth (baixa latência)</string>
+    <string name="audio_device_type_bluetooth_hq">Dispositivo Bluetooth (alta qualidade)</string>
+    <string name="audio_device_type_wiered_headset">Headset com fio</string>
+    <string name="audio_device_type_wiered_headphones">Fones de ouvido com fio</string>
+    <string name="audio_device_type_telephony">Microfone embutido (superior)</string>
+    <string name="audio_device_type">Microfone embutido</string>
+
+    <!-- ads -->
+    <string name="created_with">Criado com o apoio de</string>
+    <string name="speach_therapist">Fonoaudiólogo para adultos online</string>
+
+    <!-- headphones help -->
+    <string name="connect_headphones">Conecte os fones de ouvido</string>
+    <string name="connect_headphones_long">Para utilizar o aplicativo é necessário conectar fones de ouvido</string>
+
+    <!-- region initial help -->
+    <string name="initial_help_title">Primeiros passos</string>
+    <string name="initial_help_description">
+        Para obter a melhor qualidade de som e a menor latência, recomendamos o uso de fones de ouvido com fio.
+        \n\nVocê também pode tentar alterar o microfone e o alto-falante nas configurações do aplicativo para encontrar a opção que soa melhor para você.
+    </string>
+    <!-- endregion -->
+
+    <!-- region minimal delay help -->
+    <string name="min_delay">Retraso mínimo</string>
+    <string name="min_delay_long">Debido a las limitaciones del sistema, el retraso cero no es posible y puede variar según el dispositivo.\n\nPara el retraso más bajo use auriculares con cable</string>
+    <!-- endregion-->
+
+    <!-- settings -->
+    <string name="settings">Configurações</string>
+    <string name="noise_cancellation">Cancelamento de ruído</string>
+    <string name="mic">Microfone</string>
+    <string name="output">Alto-falante</string>
+    <string name="auto_select">Seleção automática</string>
+
+    <!-- permissions -->
+    <string name="permissions">Permissões</string>
+    <string name="permissions_description">É necessário conceder permissões para o funcionamento correto</string>
+    <string name="mic_using">Uso do microfone</string>
+    <string name="notification_show">Exibição de notificações</string>
+    <string name="battery_optimization">Otimização da bateria</string>
+    <string name="give_mic_permission">Conceder acesso ao microfone</string>
+    <string name="give_mic_permission_description">Para funcionar corretamente, o aplicativo precisa de acesso ao microfone nas configurações</string>
+    <string name="go_to_settings">Ir para as configurações</string>
+    <string name="allow_notifications">Permitir notificações</string>
+    <string name="allow_notifications_description">É necessário permitir a exibição de notificações nas configurações do aplicativo</string>
+    <string name="cancel_battery_optimization">Desativar otimização da bateria</string>
+    <string name="cancel_battery_optimization_description">Em alguns dispositivos, o sistema pode fechar o aplicativo em segundo plano, causando interrupções inesperadas na gravação. Isso pode ser resolvido desativando a otimização da bateria.\n\nConfigurações — Aplicativos — DAF → Avançado — Otimização da bateria — Não otimizar</string>
+
+    <!-- help and support -->
+    <string name="help_and_support">Ajuda e suporte</string>
+    <string name="delay_description">
+        Para obter a melhor qualidade de som e a menor latência, recomendamos o uso de fones de ouvido com fio.
+        \n\nVocê também pode tentar alterar o microfone e o alto-falante nas configurações do aplicativo para encontrar a opção que soa melhor para você.
+    </string>
+    <string name="no_sound">Sem som ou som de baixa qualidade</string>
+    <string name="no_sound_description">Tente selecionar outro alto-falante ou microfone nas configurações</string>
+    <string name="support">Suporte</string>
+    <string name="consultation">Obter consulta fonoaudiológica</string>
+</resources>
