@@ -47,7 +47,7 @@
 
     <!-- region settings -->
     <string name="settings">Settings</string>
-    <string name="noise_cancellation">Noise cancellation</string>
+    <string name="noise_cancellation">Noise Cancellation</string>
     <string name="mic">Microphone</string>
     <string name="output">Speaker</string>
     <string name="auto_select">Automatic selection</string>

@@ -70,7 +70,7 @@ class AudioService : Service() {
         updateSampleRate()
 
         observeSelectedDevice()
-        observePitch()
+        observeDelay()
         observeGain()
         observeNoiseCancellation()
     }
@@ -153,7 +153,7 @@ class AudioService : Service() {
         }
     }
 
-    private fun observePitch() {
+    private fun observeDelay() {
         scope.launch {
             dataStoreRepository.delayFlow.collect {
                 audioProcessor.setDelay(it)

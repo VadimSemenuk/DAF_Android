@@ -10,4 +10,4 @@ import dagger.hilt.android.HiltAndroidApp
 val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "meta")
 
 @HiltAndroidApp
-class FAFApplication : Application()
+class DAFApplication : Application()

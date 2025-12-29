@@ -1,0 +1,21 @@
+🗣️ Unlock smooth speech with Delayed Auditory Feedback (DAF) technique.
+
+DAF Speech Therapy is a speech fluency training app designed to help people who stutter improve their speaking confidence using the Delayed Auditory Feedback (DAF) technique.
+
+DAF works by slightly delaying your voice in your headphones, which can help slow speech rate and reduce stuttering episodes. This method is widely used in speech therapy and supported by research.
+
+✨ Key Features:
+🎧 Delayed Auditory Feedback (DAF) with adjustable delay
+🎤 Record voice and save or share audio file
+📱 Simple, clean, and easy-to-use interface
+🧑‍⚕️ Suitable for self-practice or use with a speech therapist
+🔒 Works offline, no account required
+
+👥 Who Is This App For?
+People who stutter (children, teens, and adults)
+Speech therapy practice at home
+Daily fluency training and confidence building
+Support tool recommended by speech-language pathologists
+
+⚠️ Disclaimer
+This app is not a medical device and does not replace professional speech therapy. Results may vary. For best outcomes, use under the guidance of a qualified speech-language pathologist.
