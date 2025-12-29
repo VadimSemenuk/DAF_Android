@@ -9,7 +9,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Switch
@@ -63,15 +62,6 @@ fun SettingsView(
             text = stringResource(R.string.settings),
             style = MaterialTheme.typography.headlineSmall
         )
-
-        Box(
-            modifier = Modifier.padding(bottom = 10.dp),
-        ) {
-            NoiseCancellationView(
-                uiState = uiState,
-                onAction = onAction
-            )
-        }
 
         DevicesView(
             uiState = uiState,

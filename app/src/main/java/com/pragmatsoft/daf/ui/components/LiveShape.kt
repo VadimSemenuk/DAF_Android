@@ -32,7 +32,7 @@ fun _LiveShape(trigger: Boolean) {
 
     val morphIndex = remember { mutableStateOf(0) }
 
-    val indicatorPolygons = listOf(MaterialShapes.Pill, MaterialShapes.Cookie6Sided, MaterialShapes.Pill)
+    val indicatorPolygons = listOf(MaterialShapes.Pill, MaterialShapes.Cookie4Sided, MaterialShapes.Pill)
 //    val indicatorPolygons = listOf(MaterialShapes.Pill, MaterialShapes.Slanted, MaterialShapes.Arch, MaterialShapes.Pentagon, MaterialShapes.Cookie4Sided, MaterialShapes.Pill)
     val morphSequence = remember(indicatorPolygons) {
         morphSequence(polygons = indicatorPolygons)

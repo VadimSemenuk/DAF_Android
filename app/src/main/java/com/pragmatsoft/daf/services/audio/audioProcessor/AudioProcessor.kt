@@ -1,6 +1,5 @@
 package com.pragmatsoft.daf.services.audio.audioProcessor
 
-import android.Manifest
 import android.annotation.SuppressLint
 import android.media.AudioAttributes
 import android.media.AudioDeviceInfo
@@ -8,30 +7,24 @@ import android.media.AudioFormat
 import android.media.AudioRecord
 import android.media.AudioTrack
 import android.media.MediaRecorder
-import android.media.PlaybackParams
 import android.os.Process
-import androidx.annotation.RequiresPermission
+import android.util.Log
 import com.pragmatsoft.daf.services.audio.audioProcessor.writing.WritingManager
 import com.pragmatsoft.daf.utils.toByteArray
 import kotlinx.coroutines.flow.MutableStateFlow
 import javax.inject.Inject
 
-//    val periods = 2
-//    val bytesPerFrame = 2
-//    val trackFrames = framesPerBuffer * periods
-//    val recordBufferSize = trackFrames * bytesPerFrame
-//    val trackBufferSize = recordBufferSize * 2
-//    val bytesPerTick = framesPerBuffer * bytesPerFrame
-
 class AudioProcessor @Inject constructor() {
     var isActiveFlow = MutableStateFlow(false)
 
+    @Volatile
     private var sampleRate = 44100
 
     private var inputPreferredDevice: AudioDeviceInfo? = null
     private var outputPreferredDevice: AudioDeviceInfo? = null
 
-    private var gain = 0
+    @Volatile
+    private var gain = 1
 
     private val delayBuffer = DelayBuffer(sampleRate)
     val writingManager = WritingManager(sampleRate)
@@ -55,17 +48,18 @@ class AudioProcessor @Inject constructor() {
 
             try {
                 while (isActiveFlow.value) {
-                    val n = recorder.read(inBuf, 0, inBuf.size)
-                    if (n <= 0) continue
+                    val readCount = recorder.read(inBuf, 0, inBuf.size)
+                    if (readCount <= 0) continue
 
-                    for (i in 0 until n) {
-                        val sample = (inBuf[i] * gain).toShort()
-//                        inBuf[i] = sample
+                    for (i in 0 until readCount) {
+                        val sample = (inBuf[i] * gain)
+                            .coerceIn(Short.MIN_VALUE.toInt(), Short.MAX_VALUE.toInt())
+                            .toShort()
                         delayBuffer.push(sample)
                         outBuf[i] = delayBuffer.pop()
                     }
 
-                    player.write(outBuf, 0, n)
+                    player.write(outBuf, 0, readCount)
 
                     writingManager.putIfActive(outBuf.toByteArray())
                 }
@@ -85,13 +79,18 @@ class AudioProcessor @Inject constructor() {
             AudioFormat.ENCODING_PCM_16BIT
         )
 
-        val recorder = AudioRecord(
-            MediaRecorder.AudioSource.MIC,
-            sampleRate,
-            AudioFormat.CHANNEL_IN_MONO,
-            AudioFormat.ENCODING_PCM_16BIT,
-            bufferSize
-        )
+        val recorder = AudioRecord.Builder()
+            .setAudioSource(MediaRecorder.AudioSource.MIC)
+            .setAudioFormat(
+                AudioFormat.Builder()
+                    .setSampleRate(sampleRate)
+                    .setEncoding(AudioFormat.ENCODING_PCM_16BIT)
+                    .setChannelMask(AudioFormat.CHANNEL_IN_MONO)
+                    .build()
+            )
+            .setBufferSizeInBytes(bufferSize)
+            .build()
+
         recorder.preferredDevice = inputPreferredDevice
 
         return recorder
@@ -113,6 +112,7 @@ class AudioProcessor @Inject constructor() {
             .setAudioAttributes(
                 AudioAttributes.Builder()
                     .setUsage(AudioAttributes.USAGE_ASSISTANCE_ACCESSIBILITY)
+//                    .setUsage(AudioAttributes.USAGE_VOICE_COMMUNICATION)
                     .setContentType(AudioAttributes.CONTENT_TYPE_SPEECH)
                     .build()
             )
@@ -127,10 +127,6 @@ class AudioProcessor @Inject constructor() {
             .setPerformanceMode(AudioTrack.PERFORMANCE_MODE_LOW_LATENCY)
             .setTransferMode(AudioTrack.MODE_STREAM)
             .build()
-
-//        val playbackParams = PlaybackParams()
-//        playbackParams.pitch = 0.9F
-//        player.playbackParams = playbackParams
 
         player.preferredDevice = outputPreferredDevice
 
