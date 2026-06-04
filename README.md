@@ -1,22 +1,23 @@
-# DAF - Delayed Auditory Feedback для Android
+# DAF — Delayed Auditory Feedback for Android
 
-Андроид приложение для терапии заикания с использованием техники DAF (Delayed Auditory Feedback) - метода задержки слуховой обратной связи.
+Android application for stuttering therapy using the **DAF (Delayed Auditory Feedback)** technique — a method that delays auditory feedback to help improve speech fluency.
 
-[![Get it on Google Play](https://raw.githubusercontent.com/pioug/google-play-badges/refs/heads/main/svg/Russian.svg)](https://play.google.com/store/apps/details?id=com.pragmatsoft.daf)
+[![Get it on Google Play](https://raw.githubusercontent.com/pioug/google-play-badges/refs/heads/main/svg/English.svg)](https://play.google.com/store/apps/details?id=com.pragmatsoft.daf)
 
-## Онлайн версия
+## Online Version
 
-Так-же существует онлайн версия: **https://daf.logoadult.by/**
+An online version is also available: **https://daf.logoadult.by/**
 
-## Важно
+## Important
 
-Приложение является **дополнением** к работе с логопедом и не заменяет профессиональную помощь специалиста.
+This application is intended to **complement** speech therapy with a qualified speech-language pathologist and is **not a replacement** for professional treatment.
 
-Программа создана при поддержке и консультациях опытного логопеда для взрослых, который работает с:
-- коррекцией заикания
-- постановкой звуков
-- восстановлением речи после инсульта
+The app was developed with the support and guidance of an experienced speech-language pathologist specializing in adults, including:
 
-## Запись на консультацию
+- stuttering therapy
+- speech sound correction
+- speech rehabilitation after stroke
 
-Больше информации и запись к логопеду: **https://logoadult.by**
+## Book a Consultation
+
+For more information or to schedule a consultation with a speech-language pathologist, visit: **https://logoadult.by**
